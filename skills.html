@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="skills.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Evan Oliver Era</a>
+        <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="project.html">Projects</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="skills.html" class="active">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="skills">
+        <h1>My Skills</h1>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <h3>Programming Languages</h3>
+                <p>Java, Python, VB.NET</p>
+            </div>
+            <div class="skill-item">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <h3>Mobile Development</h3>
+                <p>Android Studio</p>
+            </div>
+            <div class="skill-item">
+                <h3>Design Tools</h3>
+                <p>Figma, Canva</p>
+            </div>
+            <div class="skill-item">
+                <h3>Version Control</h3>
+                <p>Git, GitHub</p>
+            </div>
+            <footer class="footer">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

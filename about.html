@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="about.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Evan Oliver Era</a>
+        <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        <nav>
+            <a href="index.html"> Home</a>
+            <a href="about.html" class="active" >About Me</a>
+            <a href="project.html" >Projects</a>
+            <a href="gallery.html" >Gallery</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="Evan's photo">
+        </div>
+        <div class="container">
+            <section id="about">
+                <h2>About Me</h2>
+            <ul>
+                <li><strong>Birthday:</strong> December 17, 2003</li>
+                <li><strong>Age:</strong> 20 years</li>
+            </ul>
+            
+            <p>
+                Hi! I'm Evan Oliver Era, a passionate BSIT student at CNSC, currently in my 2nd year. I'm highly motivated to learn and grow as a developer, with a strong interest in game development.
+            </p>
+            <p>
+                When I'm not coding or studying, I enjoy exploring new technologies and expressing my creativity in innovative ways. As an avid learner, I believe in staying updated with the latest trends in tech to continuously improve my skills.
+            </p>
+            <p>
+                My goal is to become a skilled game developer and contribute to projects that impact people's lives positively. Currently, I'm building my portfolio by working on innovative projects like <i>Health Companion</i>.
+            </p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <h4>Elementary</h4>
+            <ul>
+                <li>Bautista Elementary School (2011 - 2015)</li>
+                <li>R.Magsaysay Elementary School (2015 - 2016)</li>       
+            </ul>
+            <h4>Junior High School</h4>
+            <ul>
+                <li>St.Francis Parochial School (2016 - 2020)</li>      
+            </ul>
+            <h4>Senior High School</h4>
+            <ul>
+                <li>Northills College of Asia (2020 - 2022)</li>    
+            </ul>
+            <h4>College</h4>
+            <ul>
+                <li>Camarines Norte State College (2022 - Present year)</li>   
+            </ul>
+        </section>
+            <footer class="footer">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

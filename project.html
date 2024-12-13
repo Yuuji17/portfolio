@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="project.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Evan Oliver Era</a>
+        <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        <nav>
+            <a href="index.html" > Home</a>
+            <a href="about.html" >About Me</a>
+            <a href="project.html" class="active" >Projects</a>
+            <a href="gallery.html" >Gallery</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html" >Contact</a>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Health Companion App</h3>
+                <p>An app designed to help users track medications, daily health metrics, and water intake. Includes features like medication reminders, charts for metrics, and a daily goals tracker.</p>
+                <a href="#" target="_blank" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Study Smart</h3>
+                <p>A productivity app for students that incorporates the Pomodoro technique, progress tracking, and reflective journaling to help manage academic tasks effectively.</p>
+                <a href="https://www.figma.com/design/STx7UdmWWZBF3FKKbGXOJZ/Student-Assignment-App?node-id=0-1&t=vbTYRgZLwrfR8Hkm-1" target="_blank" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Converge Customer Management System</h3>
+                <p>An efficient system for managing customer information for an internet provider. Features include subscription tracking, payment history, and a search function for municipalities.</p>
+                <a href="https://drive.google.com/drive/folders/1xH9mQz8PtOl0uLKXJyf3wyY8JHvf3lhi?usp=sharing" target="_blank" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>   
+    </section>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
